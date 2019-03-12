@@ -113,7 +113,7 @@ POWERLEVEL9K_RIGHT_PROMPT_DEFAULT_BACKGROUND="236"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
 # User specific alias:
-alias update="sudo dnf update -x 'kernel*'"
+alias update='sudo dnf update -x '\''kernel*'\'''
 # alias update="sudo apt-get update; sudo apt-get upgrade"
 alias glances="glances -1 -4 -t 1 --process-short-name -3 --hide-kernel-threads --disable-process"
 alias nvidia="nvidia-smi -l 1"
